@@ -1,0 +1,10 @@
+.errorbody{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
