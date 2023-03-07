@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.debd06ac.css",
+    "main.js": "/portfolio/static/js/main.5a1707bc.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/background.jpeg": "/portfolio/static/media/background.628bba920ac0443d6556.jpeg",
+    "static/media/Adhithya_Prahladh_Resume.docx": "/portfolio/static/media/Adhithya_Prahladh_Resume.67d5b70f256941fcf9ec.docx",
+    "index.html": "/portfolio/index.html",
+    "main.debd06ac.css.map": "/portfolio/static/css/main.debd06ac.css.map",
+    "main.5a1707bc.js.map": "/portfolio/static/js/main.5a1707bc.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.debd06ac.css",
+    "static/js/main.5a1707bc.js"
+  ]
+}

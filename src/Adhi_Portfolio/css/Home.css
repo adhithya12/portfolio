@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bodyreplica{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url('../OtherFiles/background.jpeg');
+    background-size: cover;
+    height: 90vh !important;
+
+}
+#name{
+    font-size: 3rem;
+}
+.maininfo{
+    padding-left: 5vw;
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 100vw;
+}
+.CV button{
+    margin:10px 10px 0 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .2s;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.CV button:hover{
+    color: black;
+    background-color: white;
+}

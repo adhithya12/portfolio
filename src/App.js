@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Adhi_Portfolio/js/Home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Sidebar from './Adhi_Portfolio/js/Sidebar';
+import About from './Adhi_Portfolio/js/About';
+import ErrorPage from './Adhi_Portfolio/js/ErrorPage';
+import Constants from './Adhi_Portfolio/js/Constants';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Routes>
+      <Route path={Constants.Home_Landing} exact element={<><Sidebar/><Home/></>} />
+      <Route path={Constants.About_Landing} exact element={<><Sidebar/><About/></>} />
+      <Route path="*" exact element={<><Sidebar/><ErrorPage/></>} />
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
