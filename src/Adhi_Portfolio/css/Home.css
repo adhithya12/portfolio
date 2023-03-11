@@ -2,47 +2,33 @@
     margin: 0;
     padding: 0;
 }
-body{
+.bodyreplica{
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: left;
+    color: white;
+    background-color: black;
 }
 #name{
     font-size: 3rem;
 }
-#pic{
-    position: absolute;
-    height: 30rem;
-    right: 5rem;
-    top: 5rem;
-}
 .maininfo{
-    margin-left: 5px;
+    margin-left: 5vw;
 }
 .CV button{
     margin:10px 10px 0 0;
-    background-color: white;
+    background-color: black;
+    color: white;
     padding: 10px;
     border-radius: 25px;
     cursor: pointer;
     transition: .2s;
+    border: 1px solid white;
+    box-sizing: border-box;
 }
 .CV button:hover{
-    color: white;
-    background-color: black;
-}
-@media only screen and (max-width:1245px){
-    .maininfo{
-        width: 65vw;
-    }
-}
-@media only screen and (max-width:865px){
-    #pic{
-        display: none;
-    }
-    .sidebar{
-        width: 50vw;
-    }
+    color: black;
+    background-color: white;
 }
