@@ -1,5 +1,6 @@
 {
   "homepage": "https://adhithya12.github.io/portfolio/",
+  "proxy":"https://adhithya12.github.io/portfolio/:5000",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
