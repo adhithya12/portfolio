@@ -9,13 +9,17 @@
     align-items: center;
     justify-content: left;
     color: white;
-    background-color: black;
+    background-image: url('../OtherFiles/background.jpeg');
+    background-size: cover;
+
 }
 #name{
     font-size: 3rem;
 }
 .maininfo{
-    margin-left: 5vw;
+    padding-left: 5vw;
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 100vw;
 }
 .CV button{
     margin:10px 10px 0 0;
