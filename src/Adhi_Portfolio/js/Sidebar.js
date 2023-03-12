@@ -41,9 +41,9 @@ const Sidebar = () => {
         <div className="breadcrumbline"></div>
       </div>
       <ul>
-        <li><Link to="/" className="link" onClick={hideNavOnLinkClick}>Home</Link></li>
-        <li><Link to="/about" className="link" onClick={hideNavOnLinkClick}>About</Link></li>
-        <li><Link to="/" className="link" onClick={hideNavOnLinkClick}>Contact me</Link></li>
+        <li><Link to="/portfolio" className="link" onClick={hideNavOnLinkClick}>Home</Link></li>
+        <li><Link to="/portfolio/about" className="link" onClick={hideNavOnLinkClick}>About</Link></li>
+        <li><Link to="/portfolio" className="link" onClick={hideNavOnLinkClick}>Contact me</Link></li>
       </ul>
     </nav>
   )
