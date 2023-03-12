@@ -4,8 +4,12 @@ import '../css/Sidebar.css'
 
 const hideNavOnLinkClick = () => {
   const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-  if(vw<1010)
-  document.getElementById("nav").style.left="-50vw";
+  if(vw<1010){
+    document.getElementById("nav").style.left="-50vw";
+    let temp=document.getElementsByClassName("breadcrumbline");
+    for(let i=0;i<temp.length;i++)
+      temp[i].style.background="white";
+  }
 
 }
 
@@ -13,7 +17,7 @@ const breadCrumbClick = () => {
   const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
   // const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
   if(vw<1010){
-    let temp=document.getElementsByClassName("breadcrumbline")
+    let temp=document.getElementsByClassName("breadcrumbline");
     if(document.getElementById("nav").style.left==="0px"){
       document.getElementById("nav").style.left="-50vw";
       for(let i=0;i<temp.length;i++)

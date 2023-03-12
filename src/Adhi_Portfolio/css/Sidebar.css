@@ -1,7 +1,7 @@
 a:link{
     text-decoration: none;
 }
-a{
+.link{
     color: white;
     width: 100%;
     height: 100%;
@@ -34,7 +34,7 @@ a{
     height: 10vh;
     margin-top: -3vh;
 }
-a:hover{
+.link:hover{
     border-bottom: 1px solid white;
 }
 @media only screen and (max-width:1010px) {
@@ -52,7 +52,7 @@ a:hover{
     #breadcrumb{
         display: block !important;
     }
-    a{
+    .link{
         color: black;
         border-bottom: 1px solid white;
     }
