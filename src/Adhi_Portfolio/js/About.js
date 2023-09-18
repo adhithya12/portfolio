@@ -2,7 +2,9 @@ import React from 'react'
 import '../css/Common.css'
 import '../css/About.css'
 const toggleInnerSection = (id) =>{
-  let idObj=document.getElementById(id).getElementsByClassName("innersection")[0];
+  let classList= document.getElementById(id).getElementsByClassName("innersection");
+  for(let i=0;i<classList.length;i++){
+    let idObj=classList[i]
   if(idObj.style.display==="none"){
     idObj.style.display="block";
     document.getElementById(id+"Icon").innerHTML="-";
@@ -10,6 +12,7 @@ const toggleInnerSection = (id) =>{
   else{
     idObj.style.display="none";
     document.getElementById(id+"Icon").innerHTML="+";
+  }
   }
 }
 const About = () => {
